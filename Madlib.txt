@@ -1,0 +1,27 @@
+# This is a sample Python script.
+
+# Press Shift+F10 to execute it or replace it with your code.
+# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+
+adj=input("Write the adjective")#Taking User inpur
+noun=input("Noun:")#Taking User inpur
+verb=input("verb:")#Taking User inpur
+adj2=input("Write another adjective")#Taking User inpur
+
+
+if (adj &noun &verb &adj2==""):
+    print("Take user input first")
+
+else:
+
+    Madlib=f"From my childhood I wanted to be a {adj} player. Unfortunately due to the {noun} of training and {adj} facilities I could not " \
+       f"become a {adj} player. " \
+       f"However, I {verb} to be an {adj2} programmer."# initializing string as madlib( taking f string for string concatenation)
+    print(Madlib)#printing the string madlib
+
+
+
+
+
+
+# See PyCharm help at https://www.jetbrains.com/help/pycharm/
